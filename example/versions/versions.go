@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"github.com/Joy963/ffgopeg/avcodec"
-	"github.com/Joy963/ffgopeg/avdevice"
-	"github.com/Joy963/ffgopeg/avfilter"
-	"github.com/Joy963/ffgopeg/avformat"
-	"github.com/Joy963/ffgopeg/avutil"
-	"github.com/Joy963/ffgopeg/swresample"
-	"github.com/Joy963/ffgopeg/swscale"
+	"gopkg.in/targodan/ffgopeg.v1/avcodec"
+	"gopkg.in/targodan/ffgopeg.v1/avdevice"
+	"gopkg.in/targodan/ffgopeg.v1/avfilter"
+	"gopkg.in/targodan/ffgopeg.v1/avformat"
+	"gopkg.in/targodan/ffgopeg.v1/avutil"
+	"gopkg.in/targodan/ffgopeg.v1/swresample"
+	"gopkg.in/targodan/ffgopeg.v1/swscale"
 )
 
 func main() {
