@@ -15,7 +15,7 @@ import "C"
 import (
 	"unsafe"
 
-	"gopkg.in/targodan/ffgopeg.v1/avutil"
+	"github.com/Joy963/ffgopeg/avutil"
 )
 
 type (
